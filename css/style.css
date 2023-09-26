@@ -7,24 +7,26 @@ body{
     width: 100%;
     background-color: rgb(97, 189, 238);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .navbar{
     display: flex;
     justify-content:space-between;
-    width: 50%;
-    background-color: orange;
+    width: 50%;    
     margin-top: 10px;
-    margin-left: 333px;
-    border-style: dashed;
+    margin-left: 333px;    
 }
 .logo1{
-    width: 120px;
-    border-right-style: dashed;
+    
+    width: 45px;
 }
 .logo2{
-    width: 120px;
-    border-left-style: dashed;
-    text-align: end;
+    border-radius: 21px;
+    width: 80px;
+    height: 32px;
+    border: none;
+    background-color:white;
+    
 }
 .contenitore{
     background-color: blue;
@@ -34,6 +36,7 @@ body{
     align-items: center;
     margin-top: 30px;
 }
+
 .quadrato{
     background-color: rgb(201, 86, 209);
     width: 650px;
@@ -113,10 +116,25 @@ body{
     height: 330px;
     color: rgb(77, 56, 171);
 }
+.quadrato8 > img{
+    width: 33px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
 .quadrato9{
     width: 500px;
     height: 330px;
     display: flex;   
+}
+.titolo{
+    color: rgb(77, 56, 171);
+    margin-bottom: 10px;
+
+}
+.info{
+    color: white;
+    margin-bottom: 10px;
 }
 .quadratini{
     width: 25%;
@@ -128,16 +146,31 @@ body{
     justify-content: center;
     align-items: center;   
 }
-.quadrato13{
-    background-color: rgb(124, 194, 167);
+.quadrato13{   
     width: 800px;
-    height: 50px;
-    border-style: dashed;
+    height: 50px;    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo3{
-    border-style: dashed;
-    background-color: rgb(167, 137, 173);
+.logo3 {
+    width: 45px;
+    
+}
+.pulsante{
+    border-radius: 21px;
+    width: 80px;
+    height: 32px;
+    border: none;
+    background-color: rgb(77, 56, 171);
+    color: white;
+}
+.pulsante1{
+    border: none;
+    background-color: rgb(77, 56, 171);
+    color: white;
+    border-radius: 21px;
+    width: 150px;
+    height: 36px;
+    TEXT-ALIGN: center;
 }
