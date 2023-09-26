@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    
+    width: 100%;
+    background-color: rgb(97, 189, 238);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+    background-color: orange;
+    margin-top: 10px;
+    margin-left: 333px;
+    border-style: dashed;
+}
+.logo1{
+    width: 120px;
+    border-right-style: dashed;
+}
+.logo2{
+    width: 120px;
+    border-left-style: dashed;
+    text-align: end;
+}
+.contenitore{
+    background-color: blue;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.quadrato{
+    background-color: rgb(201, 86, 209);
+    width: 650px;
+    height: 250px;
+    border-style: dashed;
+}
+.contenitore1{
+    background-color: white;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;   
+}
+.quadrato1 img{        
+    width: 500px;    
+}
+.quadrato2 {    
+    width: 300px;
+}
+.contenitore2{
+    background-color: rgb(182, 182, 182);
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.quadrato3 {    
+    width: 300px;   
+}
+.quadrato4 img{
+    width: 500px;    
+}
+.contenitore3{
+    background-color: white;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.quadrato5{    
+    width: 500px;    
+}
+.quadrato6{
+    width: 300px;
+}
+.contenitore4{
+    background-color: rgb(182, 182, 182);
+    height: 650px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.quadrato7{
+    background-color: rgb(33, 125, 33);
+    width: 800px;
+    height: 82%;
+    border-style: dashed;
+}
+.contenitore5{
+    background-color: rgb(45, 44, 69);
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.quadrato8{
+    background-color: rgb(167, 137, 173);
+    width: 300px;
+    height: 330px;
+    border-style: dashed;
+}
+.quadrato9{
+    background-color: rgb(48, 172, 124);
+    width: 500px;
+    height: 330px;
+    border-style: dashed;
+    display: flex;
+    
+}
+.quadratini{
+    width: 25%;
+}
+.contenitore6{
+    background-color: rgb(45, 44, 69);
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.quadrato13{
+    background-color: rgb(124, 194, 167);
+    width: 800px;
+    height: 50px;
+    border-style: dashed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo3{
+    border-style: dashed;
+    background-color: rgb(167, 137, 173);
+}
