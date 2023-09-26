@@ -74,7 +74,7 @@ body{
     justify-content: center;
     align-items: center;   
 }
-.quadrato5{    
+.quadrato5 img{    
     width: 500px;    
 }
 .quadrato6{
@@ -84,14 +84,22 @@ body{
     background-color: rgb(182, 182, 182);
     height: 650px; 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;   
 }
-.quadrato7{
-    background-color: rgb(33, 125, 33);
+.testo1{
+    text-align: center;
+    margin: 11px 280px;
+}
+.testo2{
+    margin: -40px;
+}
+.testo2 > img{
+    width: 300px
+}
+.quadrato7 img{    
     width: 800px;
-    height: 82%;
-    border-style: dashed;
+    
 }
 .contenitore5{
     background-color: rgb(45, 44, 69);
@@ -101,18 +109,14 @@ body{
     align-items: center;   
 }
 .quadrato8{
-    background-color: rgb(167, 137, 173);
     width: 300px;
     height: 330px;
-    border-style: dashed;
+    color: rgb(77, 56, 171);
 }
 .quadrato9{
-    background-color: rgb(48, 172, 124);
     width: 500px;
     height: 330px;
-    border-style: dashed;
-    display: flex;
-    
+    display: flex;   
 }
 .quadratini{
     width: 25%;
